@@ -1,0 +1,7 @@
+# Jack has 5 medications, so we will create a Medication variable and set it equal to 5
+Medication= 5
+# The Medication variable is used as a number so it is either an integer or a float
+# Because it is a whole number (assuming you can't have a fraction of a medication) it is an integer
+# It would still technically work as a float, but is unnecessary and would take up a lot more space than needed
+# Therefore we will print the variable and the type
+print("The variable 'Medication' is an integer and is equal to " + str(medications) + ".")
