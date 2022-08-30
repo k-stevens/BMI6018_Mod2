@@ -7,3 +7,11 @@ meter=1.58
 bmi=float(kg)/(float(meter)**2)
 # Once the BMI is calculated, just need to print the output by converting to a string and adding to another string
 print("The BMI is " + str(bmi))
+
+# If I wanted to make this an input based program to compute any BMI
+# replace kg variable with:
+# kg=input("What is your weight in kilograms?")
+# replace meter variable with:
+# meter=input("What is your height in meters?")
+# replace print output with
+# print("Your BMI is " + str(bmi))
