@@ -1,0 +1,9 @@
+# Defined a variable for weight in kg
+kg=60
+# Defined a variable for height in m
+meter=1.58
+# Created a BMI variable, calculated it using weight/(height^2) (in kg and m)
+# Made sure the numbers are floats because they have decimals
+bmi=float(kg)/(float(meter)**2)
+# Once the BMI is calculated, just need to print the output by converting to a string and adding to another string
+print("The BMI is " + str(bmi))
