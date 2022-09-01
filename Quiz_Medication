@@ -4,4 +4,8 @@ Medication= 5
 # Because it is a whole number (assuming you can't have a fraction of a medication) it is an integer
 # It would still technically work as a float, but is unnecessary and would take up a lot more space than needed
 # Therefore we will print the variable and the type
-print("The variable 'Medication' is an integer and is equal to " + str(medications) + ".")
+# The type() function will tell us which type of variable this is
+print(type(Medication))
+print("The variable 'Medication' is " + str(type(Medication)) + " and is equal to " + str(Medication) + ".")
+print("The variable 'Medication' is an integer" + " and is equal to " + str(Medication) + ".")
+# I wasn't sure if we were supposed to show the type of variable through string or the type() function, so I did both
